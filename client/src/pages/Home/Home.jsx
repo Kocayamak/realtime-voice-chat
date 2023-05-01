@@ -15,7 +15,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const startRegister = () => {
-    navigate("/register");
+    navigate("/authenticate");
   };
 
   return (
@@ -29,7 +29,7 @@ const Home = () => {
         </p>
 
         <div>
-          <Button onClick={startRegister} text="Adınızı alın" />
+          <Button onClick={startRegister} text="Hadi Başlayalım" />
         </div>
 
         <div className={styles.siginWrapper}>
