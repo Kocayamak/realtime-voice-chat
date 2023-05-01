@@ -1,9 +1,12 @@
 import React from 'react'
 
-const StepOtp = () => {
+const StepOtp = ({ onNext }) => {
   return (
-    <div>StepOtp</div>
-  )
-}
+    <>
+      <div>StepOtp</div>
+      <button onClick={onNext}>Sıradıki</button>
+    </>
+  );
+};
 
 export default StepOtp

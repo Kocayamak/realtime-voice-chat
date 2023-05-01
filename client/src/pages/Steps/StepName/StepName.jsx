@@ -1,9 +1,12 @@
 import React from 'react'
 
-const StepName = () => {
+const StepName = ({ onNext }) => {
   return (
-    <div>StepName</div>
-  )
-}
+    <>
+      <div>StepName</div>
+      <button onClick={onNext}>Sıradıki</button>
+    </>
+  );
+};
 
 export default StepName
